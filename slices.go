@@ -1,4 +1,4 @@
-//切片通过2个下标来界定， 即 一个上届和一个下界，a[low: high], 
+//切片通过2个下标来界定， 即 一个上届和一个下界，a[low: high],类型 []T表示一个元素类型为T的切片
 package main
 import "fmt"
 func main() {
