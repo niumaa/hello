@@ -12,7 +12,7 @@ spec:
                     inheritFrom: "maven", 
                     containers: [
             containerTemplate(name: "jnlp", 
-                              image: "registry.dev.redhat.io/openshift3/jenkins-slave-base-rhel7:v3.11", 
+                              image: "registry.redhat.io/openshift3/jenkins-slave-base-rhel7:v3.11", 
                               resourceLimitMemory: "512Mi", 
                               envVars: [
               envVar(key: "JAVA_MAX_HEAP_PARAM", value: "-Xmx333m"),
